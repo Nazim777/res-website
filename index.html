@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Res-Website</title>
+    <!---font-awesome-->
+    <script src="https://kit.fontawesome.com/d2c5b04eee.js" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:ital,wght@1,100&family=Mochiy+Pop+P+One&family=Pacifico&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    
+    <section class="header uni-padding">
+        <div class="img-logo"> <img src="images/logo.png" alt=""></div>
+       
+        <div  id="navber" >
+            <ul>
+            <li id="mobile-cross"><a href="javascript:void(0)" onclick="closemenu()"><i class="fa-solid fa-square-xmark"></i></a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Promo</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        </div>
+        <div id="mobile-menu" onclick="openmenu()">
+            <i class="fa-solid fa-bars"></i> Menu
+        </div>
+        <div class="header-text">
+            
+            <h1>Delicious</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <button><a href="">Order Now</a></button>
+            
+        
+        </div>
+    
+    </section>
+    <!-----pupular menu-->
+    <section class="popular-menu ">
+        <div class="popular-text">
+            <h1>Popular</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum.  </p>
+        </div>
+        <div class="row">
+            <div class="popular-col">
+                 <img src="images/popular1.jpg" alt="">
+               <div class="popu-text">
+                    <h4>Spicy Pasta</h4>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+               
+            </div>
+            <div class="popular-col">
+                <img src="images/popular2.jpg" alt="">
+                <div class="popu-text">
+                <h4>Vegetable Pasta</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+            </div>
+            </div>
+            <div class="popular-col" id="popualar">
+                <img src="images/popular3.jpg" alt="">
+                <div class="popu-text">
+                <h4>Beef Pasta</h4>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    <!-----statistic---->
+   <section class="statistic uni-padding">
+       <div class="statistic-text">
+           <h1>Our Statistic</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+        </div>
+           <div class="row" id="sta-row">
+               <div class="statistic-col">
+                   <div class="menu">
+                   <h3>153</h3>
+                   <h4>Menu</h4>
+                </div>
+               </div>
+               <div class="statistic-col">
+                <div class="menu">
+                <h3>3.4k</h3>
+                <h4>Store</h4>
+            </div>
+               </div>
+               <div class="statistic-col">
+                <div class="menu">
+                <h3>32</h3>
+                <h4>Country</h4>
+            </div>
+               </div>
+           </div>
+       
+   </section>
+   <!---our menu---->
+   <section class="our-menu uni-padding">
+       <div class="our-menu-text">
+           <h1>Our Menu</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+       </div>
+       <div class="our-menu-row">
+           <div class="our-menu-col">
+               <div class="img" >
+                   <img src="images/menu1.png" alt="">
+               </div>
+               <div class="menu-text">
+                   <h1>Pasta</h1>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+               </div>
+           </div>
+           <div class="our-menu-col" id="our-menu-col-2">
+            <div class="img img3" id="img2">
+                <img src="images/menu2.png" alt="">
+            </div>
+            <div class="menu-text" id="menu-text2">
+                <h1>Mie Ayam</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+            </div>
+           </div>
+          
+          
+
+       </div>
+       <div class="our-menu-row">
+        <div class="our-menu-col">
+            <div class="img" >
+                <img src="images/menu3.png" alt="">
+            </div>
+            <div class="menu-text">
+                <h1>Carbonara</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+            </div>
+        </div>
+        <div class="our-menu-col" id="our-menu-col-2">
+         <div class="img" id="img2">
+             <img src="images/menu4.png" alt="">
+         </div>
+         <div class="menu-text" id="menu-text2">
+             <h1>Pecel Lele</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+         </div>
+        </div>
+       
+       
+
+    </div>
+   </section>
+   <!----delicious----->
+  <section class="del">
+      <div class="del-row">
+          <div class="del-col" id="del-img"></div>
+          <div class="del-col">
+              <div class="del-text">
+            <h1>Delicious Pasta</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <button><a href="">Order Now</a></button>
+        </div>
+            
+          </div>
+      </div>
+  </section>
+  <!----package menu-->
+  <section class="pack-menu">
+    <div class="pack-text">
+        <h1>Package Menu</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+       
+    </div>
+    <div class="row">
+        <div class="pack-col">
+            <div class="pack-img">
+                <img src="images/menu1.png" alt="">
+            </div>
+            <div class="pack-text btn-text">
+                <h2>Pasta + Ice Tea</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button ><a href="">$34.00</a></button>
+            </div>
+        </div>
+        <div class="pack-col">
+            <div class="pack-img">
+                <img src="images/menu2.png" alt="">
+            </div>
+            <div class="pack-text btn-text">
+                <h2>Carbonara & Pasta</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button><a href="">$34.00</a></button>
+            </div>
+        </div>
+        <div class="pack-col">
+            <div class="pack-img">
+                <img src="images/menu3.png" alt="">
+            </div>
+            <div class="pack-text btn-text">
+                <h2>Mie Ayam Pangsit</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button ><a href="">$34.00</a></button>
+            </div>
+        </div>
+    </div>
+
+  </section>
+  <!---testimonials-->
+  <section class="testimonials ">
+    <div class="tes-img">
+      <img src="images/testimonials.jpg" alt="">
+     
+    </div>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </h4>
+    <div class="tes-img2">
+        <h1 class="tes">Chef Renatta</h1>
+        <img src="images/testimonials-img.jpg" alt="">
+    </div>
+    <div class="form">
+        <div class="form-text">
+            <h1>Subscribe</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="input">
+                <input type="email" placeholder="Your Email">
+                <button ><a href="">Subscribe</a></button>
+
+                
+            </div>
+        </div>
+       
+
+
+    </div>
+      
+  </section>
+ <!--footer-->
+ <section class="footer uni-padding">
+     <div class="footer-row">
+         <div class="footer-col-1">
+             <div class="footer-text">
+                 <h1>About Us</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+             </div>
+         </div>
+         <div class="footer-col-2">
+             <div class="footer-text-2">
+                 <div class="footer-all-text">
+                    <h1>About</h1>
+                    History <br>
+                    Our Team <br>
+                   Brand Guidelines<br>
+                   Terms & Condition <br>
+                   Privacy Policy
+                 </div>
+             </div>
+             <div class="footer-text-2">
+                <div class="footer-all-text">
+                    <h1>Service</h1>
+                    How to Order <br>
+                    Our Product <br>
+                    Order Status <br>
+                    Promo <br>
+                    Payment Method
+                 </div>
+
+             </div>
+             <div class="footer-text-2">
+                <div class="footer-all-text">
+                    <h1>About</h1>
+                   <p> <i class="fa-brands fa-facebook"></i>  Facebook <br></p>
+                   <p><i class="fa-brands fa-twitter"></i>  Twitter <br></p>
+                   <p><i class="fa-brands fa-instagram"></i>  Instagram <br></p>
+                   <p><i class="fa-brands fa-whatsapp"></i>  Whatsaap</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!--copyright-->
+<div class="copyright">
+  <P>  Copyright <i class="fa-solid fa-copyright"></i> All Right Reserved By MOHAMMAD NAZIM HOSSAIN </P>
+</div>
+
+<script src="js/script.js"></script>    
+</body>
+</html>
